@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/antigravity-nexus-mobile/sw.js', { scope: '/antigravity-nexus-mobile/' })})}
